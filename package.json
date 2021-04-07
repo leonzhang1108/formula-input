@@ -1,0 +1,46 @@
+{
+  "name": "formula-input",
+  "version": "0.0.1",
+  "description": "公式输入框",
+  "main": "lib/formulaInput.umd.min.js",
+  "keyword": "formulainput formula-input",
+  "author": "leonzhang(https://github.com/leonzhang1108)",
+  "private": false,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --target lib --name formulaInput --dest lib packages/index.ts",
+    "lint": "vue-cli-service lint ./packages/**/*.vue ./packages/**/*.ts ./packages/**/*.js ./examples/**/*.vue ./examples/**/*.js"
+  },
+  "dependencies": {
+    "core-js": "^3.3.2",
+    "vue": "^2.6.10",
+    "vue-class-component": "^7.0.2",
+    "vue-property-decorator": "^8.3.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "@vue/cli-plugin-babel": "^4.0.0",
+    "@vue/cli-plugin-eslint": "^4.0.0",
+    "@vue/cli-plugin-typescript": "^4.0.0",
+    "@vue/cli-plugin-unit-jest": "^4.0.0",
+    "@vue/cli-service": "^4.0.0",
+    "@vue/eslint-config-prettier": "^5.0.0",
+    "@vue/eslint-config-typescript": "^4.0.0",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "element-ui": "^2.12.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-vue": "^5.0.0",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "lodash": "^4.17.15",
+    "prettier": "^1.18.2",
+    "typescript": "~3.5.3",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "files": [
+    "lib",
+    "README.md",
+    "docs"
+  ]
+}
